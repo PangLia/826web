@@ -1,1 +1,108 @@
 /*create login.css on 2019-8-26*/
+body{
+	background-color: #dddddd;
+	margin:0 auto;
+	width:auto;
+}
+
+#main{
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 700px;
+	height: 500px;
+	box-shadow: 0 0 15px gray;	
+}
+
+#title{
+	background-color: #808080;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	width:700px;
+	height: 100px;
+	text-align: center;	
+}
+
+#title font{
+	width: 700px;
+	text-align: center;	
+	font-family: "微软雅黑";
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+#login_area {
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 5px;
+	width:354px;
+	height: 500px;
+	display: block;
+}
+
+#login_area #username_box{
+	margin: 0 auto;
+	width: 354px;
+	height: 60px;
+	display: block;
+	position: relative;
+}
+
+#login_area input[type="text"]{
+	outline: none;
+	width: 350px;
+	height: 40px;
+	position: relative;
+}
+
+#login_area #password_box{
+	margin: 0 atuo;
+	width: 354px;
+	height: 60px;
+	display: block;
+	position: relative;
+}
+
+#password_box input[type="password"]{
+	outline: none;
+	width: 350px;
+	height: 40px;
+	position: relative;
+}
+
+#login_area #select_box{
+	width: 354px;
+	height: 30px;
+	display: block;
+	position: relative;
+}
+
+.login_bn {
+	background-color: gray;
+	width: 354px;
+	height: 40px;
+	border: 0;
+	color: #FFFFFF;
+	font-size: 21px;
+}
+
+#login_info {
+	margin-top: 20px;
+	width: 354px;
+	text-align: right;
+}
+
+#login_info font{
+	color: #909090;
+}
+
+#login_info a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#login_info a:visited{
+	color: #000000;
+}
+
