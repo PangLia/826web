@@ -11,7 +11,9 @@
 	<body>
 		<div id="page">
 			<nav id="Top_header">
-				<div class="logo"><a href="#"><img src="img/tab_logo.png" width="20px" height="20px"/></a></div>
+				<div class="logo">
+					<!--<a href="#"><img src="img/tab_logo.png" width="60px" height="60px"/></a>-->
+				</div>
 				<div class="header_search_bar">
 					<div class="header_search_box">
 						<form action="#" name="frmsearch" method="get">
@@ -22,15 +24,68 @@
 						</form>
 					</div>
 				</div>
+				<div id="account_bar">
+					<ul>
+						<li><a href="#">清单</a></li>
+						<li><a href="#">购物车</a></li>
+						<li><a href="login.html">登录</a></li>
+					</ul>
+				</div>
 			</nav>
 			<nav id="nav2">
-				<p>Test2</p>
+				<div id="small_header">
+					<ul>
+						<li><a href="#">
+								<figure class="icon-mobile"></figure>
+								<span>手机</span>
+							</a></li>
+						<li><a href="#">
+								<figure class="icon-pc"></figure>
+								<span>笔记本电脑</span>							
+							</a></li>
+						<li><a href="#">
+								<figure class="icon-headset"></figure>
+								<span>耳机</span>							
+							</a></li>
+						<li><a href="#">
+								<figure class="icon-adapter_data_cable"></figure>
+								<span>适配器/数据线</span>							
+							</a></li>
+						<li><a href="#">
+								<figure class="icon-periphery"></figure>
+								<span>周边</span>							
+							</a></li>
+					</ul>
+				</div>
 			</nav>
 			<div id="main_picture">
-				<p>Test3</p>
+				<img src="img/main1.png" />
 			</div>
 			<div id="main">
-				<p>Test4</p>
+				<div id="main_top">
+					<div id="main_top_header">
+						<h3>Top 20</h3>
+					</div>
+					<div id="main_top_pic"> <a class="top_avatar" href="#"></a><img src="img/Top20.png" width="1000px" height="300px" /> </div>
+					
+				</div>
+				<div id="main_hot">
+					<div id="main_hot_header">
+						<h3>热门商品</h3>
+					</div>
+					<div class="hot_pic_aera">
+						<div class="hot_goods_pic">
+							<a href="#" class="hot_avatar">
+								<img src="" width="320px" height="200px" />
+							</a>
+						</div>
+						<div class="hot_goods_text">
+							<p>xxxxx</p>
+							<p>￥xxxx</p>
+						</div>
+						
+					</div>
+				</div>
 			</div>		
 		</div>
 	</body>
