@@ -325,3 +325,103 @@ body{
 	font-size: 16px;
 }
 
+#footer{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: auto;
+	height: 190px;
+	margin: 0 auto;
+}
+
+.footer_main_classify{
+	margin-left: 50px;
+	width: 1200px;
+	height: 190px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+#footer_main ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer_main ul li{
+	margin: 0 auto;
+	margin-left: 0px;
+	padding-bottom: 10px;
+	list-style: none;
+	font-size: 14px;
+}
+
+#footer_main ul li a:hover{
+	color: #005CCB;
+}
+
+#footer_main h4{
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+
+#footer_main a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#footer_main a:hover{
+	text-decoration: underline;
+}
+
+.top_avatar{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.top_avatar img{
+	-webkit-transform: -webkit-transform 0.7s;
+	transition: transform 0.7s;
+}
+
+.top_avatar:hover,
+.top_avatar:hover,
+.top_avatar:hover{
+	box-shadow: 0 0 0px gray;
+}
+
+.top_avatar:hover img,
+.top_avatar:hover img,
+.top_avatar:hover img{
+	transform: scale3d(1.01,1.01,1);
+	-webkit-transition: scale3d(1.01,1.01,1);
+}
+
+.hot_avatar{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.hot_goods:hover,
+.hot_goods:hover,
+.hot_goods:hover{
+	height: 350px;
+	box-shadow: 0 0 7px #B1B1B1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
